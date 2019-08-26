@@ -1,10 +1,7 @@
 from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
 
-
-
 bot = ChatBot('test')
-
 
 texto = open("conversa.txt",'r')
 texto = texto.readlines()
